@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:background="#13314b"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Create an account"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:textSize="28dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:hint="User name"
+        android:textColorHint="#798488"
+        android:textColor="@color/white"
+        android:background="#091926"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="32dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:hint="Email"
+        android:textColorHint="#798488"
+        android:textColor="@color/white"
+        android:background="#091926"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:hint="Password"
+        android:textColorHint="#798488"
+        android:textColor="@color/white"
+        android:background="#091926"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:hint="Confirm password"
+        android:textColorHint="#798488"
+        android:textColor="@color/white"
+        android:background="#091926"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Select your avatar: "
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:backgroundTint="#f6f3f2"
+            android:text="Choose File"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:layout_marginLeft="3dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="No file chosen"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:layout_marginLeft="4dp"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        android:text="Register"
+        android:textSize="18dp"
+        android:textAllCaps="false"
+        android:backgroundTint="#0987c1"/>
+</LinearLayout>
