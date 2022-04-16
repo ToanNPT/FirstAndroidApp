@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import com.example.sqlite.sqlite;
 
 public class MainActivity extends AppCompatActivity {
     Button btn ;
@@ -23,9 +24,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void MainClicked(View view){
-        Intent openLogin = new Intent(this, LoginHandler.class);
-        openLogin.putExtra(USER_NAME, "toan0810");
-        openLogin.putExtra(PASS_WORD, "08102001");
+        Intent openLogin = new Intent(this, sqlite.class);
+//        openLogin.putExtra(USER_NAME, "toan0810");
+//        openLogin.putExtra(PASS_WORD, "08102001");
         startActivity(openLogin);
     }
 
